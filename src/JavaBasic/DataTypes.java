@@ -26,6 +26,7 @@ public class DataTypes {
 	    char a = 'a';
 	    char b = 'b';
 	    System.out.println(b);
+	    System.out.println("laxminarayan");
 	    
 	    // boolean data type either true or false
 	    
