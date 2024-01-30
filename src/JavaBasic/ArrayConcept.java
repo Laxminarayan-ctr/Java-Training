@@ -12,14 +12,15 @@ public class ArrayConcept {
 		//Only store similar data type -- TO overcome this problem we use Object array
 		
 		int i[] = new int[4];
-		   i[0] = 1;
-		   i[1] = 2;
-		   i[2] = 60;
-		   i[3] = 90;
-		   
-		   for(int j=0; j<i.length;j++) {
-			   System.out.println(i[j]);
-		   }
+		i[0] = 2;
+		i[1] = 3;
+		i[2] = 5;
+		i[3] = 8;
+		for(int k = 0; k<i.length; k++)
+		{
+			System.out.println(i[k]);
+		}
+		
 			   
 	//Object array is class ->used to store different data type	   
 	   Object ob[] = new Object[5];
