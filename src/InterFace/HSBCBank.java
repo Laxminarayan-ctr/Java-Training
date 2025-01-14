@@ -1,4 +1,5 @@
- package InterFace;
+
+package InterFace;
 
 public class HSBCBank implements USBank,Brazil {
 	

@@ -10,7 +10,10 @@ public class LocalVsGloble {
 		System.out.println(age);
 		LocalVsGloble obj = new LocalVsGloble();
 		
+		
+		
 		obj.test();
+		
 		
 		
 		}
