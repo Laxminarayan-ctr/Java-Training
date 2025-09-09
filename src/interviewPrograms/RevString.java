@@ -2,24 +2,25 @@ package interviewPrograms;
 
 public class RevString {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args)
+	{
 		
-		String name = "Laxminarayan";
-		char rev = ' ';
-		System.out.println(name.length());
+		String name = "laxminarayan";
+		//char rev = ' ';
 		
 		for(int i=name.length()-1; i>=0; i--)
 		{
-			 
-			  rev =  name.charAt(i);
-			  System.out.println(rev);
+			char rev =  name.charAt(i);
+			System.out.println(rev);
 		}
 		
+		StringBuffer rev1 = new StringBuffer(name);
+		 System.out.println(rev1.reverse());
 		
-		StringBuffer revs = new StringBuffer(name);
-		 System.out.println(revs.reverse());
-
+		
+		
+		
+		
 	}
 
 }
